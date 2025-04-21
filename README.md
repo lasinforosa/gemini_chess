@@ -37,11 +37,11 @@ $(venev)gemini_chess/src> python main.py
 
 APP feta amb l'ajut inestimable de la IA Gemini 2.5 pro depth.... Inicialment vaig fer un altre
 programa amb la IA QWEN, pero ara estic utilitzant el Gemini via Google AI Studio.
-EM serveix per preguntar-li coses que no sé de Python i que em resolgui elguns embolics que jo
-mateixa em creo quan escric les linies.
-La veritat es util pero jo m'embolico molt amb alguns suggeriments del programa o confonc les
-diferents correcions que em fa (o es confon l'IA). Però es just reconèixer una eina com aquesta
-que m'està essent molt útil.
+EM serveix per preguntar-li coses que no sé de Python i que em resolgui alguns embolics que jo
+mateixa em creo quan escric les linies de codi.
+La veritat, Gemini 2.5 es molt util pero jo m'embolico bastant amb alguns suggeriments del programa o confonc les
+diferents correccions que em fa (o es confon l'IA). Però es just reconèixer una eina com aquesta
+que es impressionant.
 Val. D'aqui el nom que l'he possat al programa.
 
 
