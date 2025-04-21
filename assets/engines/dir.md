@@ -10,4 +10,13 @@ Això es pot fer des del mateix explorador d'arxius (Thunar o el que sigui)
 No cal dir-ho que qualsevol modul es propietat dels seus autors. Els-hi agraim facilitin als afeccionats
 l'accés al seu software.
 
+No els he pujat perque son massa grans i es millor que cadascú s'instali el darrer que li funcioni.
+
+El codi de moment cerca a 
+- Linux:  stockfish-ubuntu-x86-64-sse41-popcnt
+- WIndows: stockfish_15_x64_popcnt.exe
+
+
+
+
 
