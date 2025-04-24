@@ -15,7 +15,7 @@ from helpers import *
 from chessboard_widget import ChessboardWidget, SQUARE_SIZE
 from engine_manager import ChessEngine
 
-path_to_stockfish = "engines/stockfish-ubuntu-x86-64-sse41-popcnt" # <<-- Actualitza el camí al teu Stockfish
+path_to_stockfish = "../engines/stockfish-ubuntu-x86-64-sse41-popcnt" # <<-- Actualitza el camí al teu Stockfish
 
 # per control·lar el DEBUG i les sortides print
 debug = "cap"
@@ -30,8 +30,8 @@ GREEN_DARK_COLOR = QColor("#A9D18E")   # Verd fosc (exemple #4F8C2A)
 
 # Determina el directori base i altres directoris
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ICONS_DIR = os.path.join(BASE_DIR, "assets", "icons")
-PIECES_BASE_DIR = os.path.join(BASE_DIR, "assets", "pieces") # Directori que conté els subdirectoris de peces
+ICONS_DIR = os.path.join(BASE_DIR, "..", "assets", "icons")
+PIECES_BASE_DIR = os.path.join(BASE_DIR, "..", "assets", "pieces") # Directori que conté els subdirectoris de peces
 
 # --- Defineix els directoris dels diferents jocs de peces ---
 PIECES_DIR_BERLIN = os.path.join(PIECES_BASE_DIR, "berlin") # <<-- Usa minúscules si així es diu la carpeta!
@@ -127,7 +127,7 @@ class MainWindow(QMainWindow):
              # sys.exit(1)
 
          # --- Configuració Stockfish ---
-        self.path_to_stockfish = os.path.join(BASE_DIR, "engines", "stockfish-ubuntu-x86-64-sse41-popcnt") # AJUSTA CAMÍ
+        self.path_to_stockfish = os.path.join(BASE_DIR, "..", "assets", "engines", "stockfish-ubuntu-x86-64-sse41-popcnt") # AJUSTA CAMÍ
         self.stockfish_active = False # Comença desactivat
         try:
             self.engine = ChessEngine(self.path_to_stockfish)
