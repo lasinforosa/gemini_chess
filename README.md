@@ -1,5 +1,5 @@
 # gemini_chess
-Batabase chess program writtrn in Python -pyside6
+Database chess program writtrn in Python -pyside6
 
 TEXT IN CATALAN (Translate if needed)
 
